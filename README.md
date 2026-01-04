@@ -1,4 +1,4 @@
-# Uniswap Ticks Query
+# Uniswap Liquidit/Ticks Query
 
 Powerful and efficient Solidity contracts designed to query liquidity ticks from Uniswap V3 and its major forks (PancakeSwap V3, Aerodrome V3).
 
