@@ -1,0 +1,148 @@
+[
+    {
+        "type": "function",
+        "name": "getAllTicksInWord",
+        "inputs": [
+            {
+                "name": "poolAddr",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "words",
+                "type": "uint32",
+                "internalType": "uint32"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "sqrtPriceX96",
+                "type": "uint160",
+                "internalType": "uint160"
+            },
+            {
+                "name": "liquidity",
+                "type": "uint128",
+                "internalType": "uint128"
+            },
+            {
+                "name": "tickCur",
+                "type": "int24",
+                "internalType": "int24"
+            },
+            {
+                "name": "ticks",
+                "type": "int24[]",
+                "internalType": "int24[]"
+            },
+            {
+                "name": "liquidityNets",
+                "type": "int128[]",
+                "internalType": "int128[]"
+            }
+        ],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "getAllTicksInWord2",
+        "inputs": [
+            {
+                "name": "poolAddr",
+                "type": "address",
+                "internalType": "address"
+            },
+            {
+                "name": "words",
+                "type": "uint32",
+                "internalType": "uint32"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "sqrtPriceX96",
+                "type": "uint160",
+                "internalType": "uint160"
+            },
+            {
+                "name": "liquidity",
+                "type": "uint128",
+                "internalType": "uint128"
+            },
+            {
+                "name": "tickCur",
+                "type": "int24",
+                "internalType": "int24"
+            },
+            {
+                "name": "tickSpacing",
+                "type": "int24",
+                "internalType": "int24"
+            },
+            {
+                "name": "fee",
+                "type": "uint24",
+                "internalType": "uint24"
+            },
+            {
+                "name": "ticks",
+                "type": "int24[]",
+                "internalType": "int24[]"
+            },
+            {
+                "name": "liquidityNets",
+                "type": "int128[]",
+                "internalType": "int128[]"
+            },
+            {
+                "name": "liquidityGross",
+                "type": "uint128[]",
+                "internalType": "uint128[]"
+            }
+        ],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "getPopulatedTicksInWords",
+        "inputs": [
+            {
+                "name": "sdatas",
+                "type": "bytes[]",
+                "internalType": "bytes[]"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "datas",
+                "type": "bytes[]",
+                "internalType": "bytes[]"
+            }
+        ],
+        "stateMutability": "view"
+    },
+    {
+        "type": "function",
+        "name": "getTickLiqs",
+        "inputs": [
+            {
+                "name": "poolAddrs",
+                "type": "address[]",
+                "internalType": "address[]"
+            },
+            {
+                "name": "tickDatas",
+                "type": "bytes[]",
+                "internalType": "bytes[]"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "datas",
+                "type": "bytes[]",
+                "internalType": "bytes[]"
+            }
+        ],
+        "stateMutability": "view"
+    }
+]
